@@ -1,5 +1,14 @@
 // cart.js
 
+document.getElementById('checkout-button').addEventListener('click', function() {
+    // Simulan ang proseso ng checkout dito (halimbawa, ipadala ang data sa server)
+    
+    // Ipakita ang alert na mensaheng "Matagumpay na na-order"
+    alert('Successfully Ordered');
+});
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const cartCountDisplay = document.getElementById('cart-count-display');
 
