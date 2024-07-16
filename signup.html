@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>VAPE X</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.css" />
+    <link rel="stylesheet" href="vape.css">
+</head>
+
+<body>
+<style>
+    body {
+    background-image: url('smoke.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+/* Additional styling for sections or elements can be added here */
+
+</style>
+
+    <section id="header">
+        <h1>VAPE | X</h1>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="signup.html">Sign Up</a></li>
+                <li id="lg-bag">
+                    <a  href="cart.html">
+                        <i class="fa-solid fa-shopping-bag" style="color: white;"></i>
+                        <span id="cart-count-display" ></span> <!-- Cart count display -->
+                    </a>
+                </li>
+                <a href="#" id="close"><i class="fa-regular fa-circle-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-shopping-bag" style="color: white;"></i></a>
+            <i id="bar" class="fa-solid fa-outdent" style="color: white;"></i>
+        </div>
+    </section>
+
+    <section>
+        
+    </section>
+
+<section>
+    <div class="signup-container" id="login-container">
+        <h2>Log In Account</h2><br>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="log-in">Log In</button>
+            </div>
+        </form>
+    </div>
+    <script src="signup.js"></script>
+    <script src='cart.js'></script>
+
+</section>
+
+</body>
+</html>
